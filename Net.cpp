@@ -11,9 +11,10 @@ Net::Net(const vector <unsigned> &topology)
 
     for(unsigned layerNum = 0; layerNum < numLayers; ++layerNum){
         m_layers.push_back(Layer());
+        unsigned numOutputs = layerNum == topology.size() - 1 ? 0 : topology[layerNum + 1];
         for(unsigned neuronNum = 0; neuronNum <= topology[layerNum]; ++neuronNum){
             cout<< "made Neuron"<< endl;
-            m_layers.back().push_back(Neuron());
+            m_layers.back().push_back(Neuron(numOutputs));
 
 
         }

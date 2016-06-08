@@ -1,13 +1,21 @@
 #ifndef NEURON_H
 #define NEURON_H
+#include <vector>
+using namespace std;
 
+struct Connection{
+    double weight;
+    double deltaWeight;
+};
 
 class Neuron
 {
     public:
-        Neuron();
+        Neuron(unsigned numOutputs);
     protected:
     private:
+        double m_outputValue;
+        vector<Connection> m_outputWeights;
 
 };
 
