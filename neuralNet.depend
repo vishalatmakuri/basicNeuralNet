@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1465360271 source:c:\users\vishal\documents\code\cpls\neuralnet\main.cpp
+	<iostream>
+	<vector>
+	"Neuron.h"
+	"common.h"
+
+1465360874 c:\users\vishal\documents\code\cpls\neuralnet\neuron.h
+
+1465360127 c:\users\vishal\documents\code\cpls\neuralnet\common.h
+	<vector>
+	"Neuron.h"
+
+1465361065 source:c:\users\vishal\documents\code\cpls\neuralnet\net.cpp
+	"Net.h"
+	<vector>
+	<iostream>
+	"Neuron.h"
+	"common.h"
+
+1465361016 c:\users\vishal\documents\code\cpls\neuralnet\net.h
+	<vector>
+	"Neuron.h"
+	"common.h"
+
+1465360521 source:c:\users\vishal\documents\code\cpls\neuralnet\neuron.cpp
+	<iostream>
+	"Neuron.h"
+
