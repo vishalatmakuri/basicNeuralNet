@@ -14,6 +14,9 @@ class Net
     protected:
     private:
         vector <Layer> m_layers;
+        double m_error;
+        double m_recentAverageSmoothingFactor;
+        double m_recentAverageError;
 };
 
 #endif // NET_H

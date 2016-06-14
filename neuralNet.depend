@@ -6,27 +6,29 @@
 	"common.h"
 	"Net.h"
 
-1465363658 c:\users\vishal\documents\code\cpls\neuralnet\neuron.h
+1465879876 c:\users\vishal\documents\code\cpls\neuralnet\neuron.h
+	<vector>
+	"common.h"
+
+1465709274 c:\users\vishal\documents\code\cpls\neuralnet\common.h
 	<vector>
 
-1465362148 c:\users\vishal\documents\code\cpls\neuralnet\common.h
-	<vector>
-	"Neuron.h"
-
-1465362083 source:c:\users\vishal\documents\code\cpls\neuralnet\net.cpp
+1465709323 source:c:\users\vishal\documents\code\cpls\neuralnet\net.cpp
 	"Net.h"
 	<vector>
+	<cassert>
 	<iostream>
-	"Neuron.h"
 	"common.h"
+	"Neuron.h"
 
-1465361016 c:\users\vishal\documents\code\cpls\neuralnet\net.h
+1465707829 c:\users\vishal\documents\code\cpls\neuralnet\net.h
 	<vector>
 	"Neuron.h"
 	"common.h"
 
-1465363914 source:c:\users\vishal\documents\code\cpls\neuralnet\neuron.cpp
+1465879805 source:c:\users\vishal\documents\code\cpls\neuralnet\neuron.cpp
 	<iostream>
 	<cstdlib>
 	"Neuron.h"
+	<math.h>
 
