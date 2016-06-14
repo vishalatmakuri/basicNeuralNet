@@ -16,6 +16,9 @@ class Neuron
         void setOutputVal(double val);
         double getOutputVal(void) const;
         void feedForward(const Layer &prevLayer, unsigned myIndex);
+        void calcOutputGradients(double targetVal);
+        void calcHiddenGradients(const Layer &nextLayer);
+        void updateInputWeights(Layer &prevLayer);
     protected:
     private:
         static double randomWeight(void);
@@ -24,6 +27,10 @@ class Neuron
         double m_outputVal;
         unsigned m_myIndex;
         vector<Connection> m_outputWeights;
+        double m_gradient;
+        double sumDOW(const Layer &nextLayer)const;
+        static double eta;
+        static double alpha;
 };
 
 #endif // NEURON_H
